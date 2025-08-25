@@ -102,3 +102,5 @@ your_photo_cartoon.png
   DOI: [10.1109/CISES58720.2023.10183524](https://doi.org/10.1109/CISES58720.2023.10183524)
 
 ---
+## Future Updagrades (coming soon)
+A React.js based frontend with proper Anime-like Cartoon generation based on AnimeGAN and other pretrained models
