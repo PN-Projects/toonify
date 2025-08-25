@@ -37,11 +37,15 @@ NewValue = floor(p / (a-b)) * (a+b)
 ---
 
 ## 📸 Example Results
-(Replace placeholders with your own images in `/images` folder)
+Below are the **six outputs** you’ll get when running the code:
 
-| Original | Edges | Cartoon Output |
-|----------|-------|----------------|
-| ![Original](images/original.jpg) | ![Edges](images/edges.jpg) | ![Cartoon](images/cartoon.jpg) |
+| Original | Canny Edges | Thickened Edges |
+|----------|-------------|-----------------|
+| ![Original](images/original.jpg) | ![Edges](images/canny.jpg) | ![Thickened](images/thickened.jpg) |
+
+| Smoothed | Quantized | Final Cartoon |
+|----------|-----------|---------------|
+| ![Smoothed](images/smoothed.jpg) | ![Quantized](images/quantized.jpg) | ![Cartoon](images/cartoon.jpg) |
 
 ---
 
@@ -56,7 +60,7 @@ NewValue = floor(p / (a-b)) * (a+b)
 Install dependencies:
 ```bash
 pip install opencv-python numpy matplotlib
-```
+
 
 ### Run Script
 
