@@ -89,27 +89,13 @@ your_photo_cartoon.png
 ├── README.md            # Project documentation
 ├── images/              # Place before/after examples here
 │   ├── original.jpg
-│   ├── edges.jpg
+│   ├── canny.jpg
+│   ├── thickened.jpg
+│   ├── smoothed.jpg
+│   ├── quantized.jpg
 │   └── cartoon.jpg
+
 ```
-
----
-
-## 🌐 Google Colab Support
-
-We also provide a **one-cell Google Colab notebook** for quick usage in the browser — upload your photo and get a cartoon instantly.
-
----
-
-## 🚀 Roadmap
-
-* ✅ Local Python script
-* ✅ Google Colab support
-* 🔜 Add a **frontend** (Tkinter / Streamlit / WebApp for uploads)
-* 🔮 Explore **Deep Learning cartoonization** (AnimeGAN, CartoonGAN, NST)
-
----
-
 ## 📚 Reference
 
 * Shruti Kumari Shrivastava, Ruchi Gajjar, *Image Processing based Image to Cartoon Generation: Reducing complexity of large computation arising from Deep Learning*, 2023 IEEE CISES.
